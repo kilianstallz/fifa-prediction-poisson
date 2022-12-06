@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import pandas as pd
 
-years = [2006, 2010, 2014, 2018, 2022]
+years = [2010, 2014, 2018, 2022]
 
 
 def get_historic_matches(year):
